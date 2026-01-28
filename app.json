@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "LOOP",
+    "slug": "loop-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/caf559ce-ffe9-4f6b-a79f-f42165758f3d.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/caf559ce-ffe9-4f6b-a79f-f42165758f3d.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
