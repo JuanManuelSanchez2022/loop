@@ -39,3 +39,12 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+.env
+Thumbs.db
+desktop.ini
+
+# Windows / OneDrive
+.AppleDouble
+.AppleDB
+
