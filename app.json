@@ -1,39 +1,33 @@
 {
   "expo": {
-    "name": "LOOP",
-    "slug": "loop-app",
+    "name": "event-op-app",
+    "slug": "event-op-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/caf559ce-ffe9-4f6b-a79f-f42165758f3d.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": false,
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/caf559ce-ffe9-4f6b-a79f-f42165758f3d.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.juan.loopapp.test",
-      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "permissions": [
-        "ACCESS_FINE_LOCATION",
-        "ACCESS_COARSE_LOCATION"
-      ]
-    },
-    "extra": {
-      "eas": {
-        "projectId": "1ac1e830-88d8-4b44-b710-bcaff58355e0"
       }
     },
     "web": {
-      "bundler": "metro",
-      "output": "single",
-      "favicon": "./assets/caf559ce-ffe9-4f6b-a79f-f42165758f3d.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     },
-    "owner": "juanmsanchez"
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "event-op-app"
   }
 }

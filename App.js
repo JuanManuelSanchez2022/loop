@@ -138,7 +138,7 @@ function CustomDrawerContent(props) {
             </View>
 
             <TouchableOpacity
-              onPress={() => navigation.navigate('ManageEvents')}
+              onPress={() => navigation.navigate('Discovery', { screen: 'ManageHub' })}
               style={styles.drawerItem}
             >
               <Text style={{ fontSize: 18, marginRight: 12 }}>⚙️</Text>
@@ -146,7 +146,7 @@ function CustomDrawerContent(props) {
             </TouchableOpacity>
 
             <TouchableOpacity
-              onPress={() => navigation.navigate('OrganizerAnalytics')}
+              onPress={() => navigation.navigate('Discovery', { screen: 'OrganizerAnalytics' })}
               style={styles.drawerItem}
             >
               <Text style={{ fontSize: 18, marginRight: 12 }}>📊</Text>
